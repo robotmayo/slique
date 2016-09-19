@@ -68,14 +68,14 @@ $gray: #6e6e6e;
 }
 @mixin spritesheet {
     /* Do not remove below comment: */
-    /* background-image: url(%%spritesheet%%); */
-    background-image: url('http://i.imgur.com/ZoRkI3m.png');
+    background-image: url(%%spritesheet%%);
+    // background-image: url('http://i.imgur.com/ZoRkI3m.png');
 }
 @mixin background-image {
-    /* background: url(%%background%%); */
-    background: url('http://i.imgur.com/VsrAZoQ.png');
+    background: url(%%background%%);
+    // background: url('http://i.imgur.com/VsrAZoQ.png');
 }
 @mixin tile-image {
-    /* background: url(%%tile%%); */
-    background: url('http://i.imgur.com/teQbNM5.png');
+    background: url(%%tile%%);
+    // background: url('http://i.imgur.com/teQbNM5.png');
 }
